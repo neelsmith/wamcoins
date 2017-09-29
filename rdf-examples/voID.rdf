@@ -1,0 +1,13 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:void="http://rdfs.org/ns/void#">
+	<void:Dataset rdf:about="http://worcesterart.org/COINSURL">
+		<dcterms:title>Ancient Coins in the Worcester Art Museum</dcterms:title>
+		<dcterms:description>The Worcester Art Museum collection contains about 500
+       coins from the ancient Mediterranean world.</dcterms:description>
+		<dcterms:publisher>Worcester Art Museum</dcterms:publisher>
+		<dcterms:license rdf:resource="http://opendatacommons.org/licenses/odbl/"/>
+		<void:uriSpace>http://worcesterart.org/id/</void:uriSpace>
+		<void:dataDump rdf:resource="http://worcesterart.org/nomisma.rdf"/>
+	</void:Dataset>
+</rdf:RDF>

@@ -1,0 +1,29 @@
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:void="http://rdfs.org/ns/void#"
+	xmlns:nmo="http://nomisma.org/ontology#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+	<nmo:NumismaticObject rdf:about="http://coins.lib.virginia.edu/id/1991.17.140">
+		<dcterms:title>Antoninianus of Gallienus, Rome, 254-255. 1991.17.140.</dcterms:title>
+		<dcterms:identifier>1991.17.140</dcterms:identifier>
+		<nmo:hasCollection rdf:resource="http://nomisma.org/id/uva"/>
+		<nmo:hasTypeSeriesItem rdf:resource="http://numismatics.org/ocre/id/ric.5.gall(1).143fA"/>
+		<dcterms:replaces rdf:resource="http://coins.lib.virginia.edu/display-uva?id=n1991_17_140"/>
+		<nmo:hasAxis rdf:datatype="xsd:integer">6</nmo:hasAxis>
+		<nmo:hasDiameter rdf:datatype="xsd:decimal">22</nmo:hasDiameter>
+		<nmo:hasWeight rdf:datatype="xsd:decimal">2.86</nmo:hasWeight>
+		<dcterms:isPartOf rdf:resource="http://nomisma.org/id/olivers_orchard_hoards"/>
+		<nmo:hasObverse rdf:resource="http://coins.lib.virginia.edu/id/1991.17.140#obverse"/>
+		<nmo:hasReverse rdf:resource="http://coins.lib.virginia.edu/id/1991.17.140#reverse"/>
+		<void:inDataset rdf:resource="http://coins.lib.virginia.edu/"/>
+	</nmo:NumismaticObject>
+	<rdf:Description rdf:about="http://coins.lib.virginia.edu/id/1991.17.140#obverse">
+		<foaf:depiction rdf:resource="http://coins.lib.virginia.edu/images/coins/screen/n1991_17_140_obv.jpg"/>
+		<foaf:thumbnail rdf:resource="http://coins.lib.virginia.edu/images/coins/thumb/n1991_17_140_obv.jpg"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://coins.lib.virginia.edu/id/1991.17.140#reverse">
+		<foaf:depiction rdf:resource="http://coins.lib.virginia.edu/images/coins/screen/n1991_17_140_rev.jpg"/>
+		<foaf:thumbnail rdf:resource="http://coins.lib.virginia.edu/images/coins/thumb/n1991_17_140_rev.jpg"/>
+	</rdf:Description>
+</rdf:RDF>
