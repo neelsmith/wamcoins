@@ -1,0 +1,66 @@
+
+html {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+a, a.imageLink {
+	text-decoration: none;
+}
+
+a, a.imageLink:hover {
+	text-decoration: underline;
+}
+
+.recordDiv {
+	display: block;
+	border: 1px solid silver;
+	padding: 3em;
+	margin: 3em;
+	float: left;
+	width: 40em;
+}
+
+span.fieldLabel {
+	display: inline-block;
+	min-width: 15em;
+	font-weight: bold;
+}
+
+img.thumbView {
+	position: absolute;
+	top: 300;
+	right: 70;
+	border: 2px solid black;
+}
+
+
+div#descriptionDiv, h2 {
+	margin-bottom: 15px;
+	padding: 5px;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
+.waiting {
+	height: 36em;
+	background: url("https://www.socalpilots.org/Style/images/PleaseWaitTxt.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+
+footer {
+	clear: both;
+	font-size: 80%;
+	color: #333;
+	padding: 5px;
+}
