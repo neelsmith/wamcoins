@@ -1,6 +1,7 @@
 
 var baseUrl = "http://shot.holycross.edu/wamcoins/ocre.html"
-var remoteDataUrl = "http://shot.holycross.edu/wamcoins/ocre.tsv"
+//var remoteDataUrl = "http://shot.holycross.edu/wamcoins/ocre.tsv"
+var remoteDataUrl = "https://raw.githubusercontent.com/Eumaeus/wamcoins/master/tabs-ocre/ocre-full.csv"
 var idParam = "OCRE"
 
 
@@ -85,8 +86,7 @@ function doTabulator(results){
 
 	//create Tabulator on DOM element with id "example-table"
 	$("#bcdata-table").tabulator({
-  		 movableColumns: true, //enable user movable rows
-  		 persistentLayout:true, //Enable column layout persistence
+  		movableColumns:true, //enable user movable rows
 	    height:"65%", // set height of table (optional)
 	    fitColumns:false, //fit columns to width of table (optional)
 			columns:[

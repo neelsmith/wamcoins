@@ -1,7 +1,7 @@
 
 var baseUrl = "http://shot.holycross.edu/wamcoins/catalog.html"
 //var remoteDataUrl = "http://shot.holycross.edu/wamcoins/wamcatinprog.tsv"
-var remoteDataUrl = "http://shot.holycross.edu/wamcoins/wamcatinprog.tsv"
+var remoteDataUrl = "https://raw.githubusercontent.com/Eumaeus/wamcoins/master/tabs-web/wamcatinprog.tsv"
 var idParam = "inv"
 
 
@@ -86,9 +86,8 @@ function doTabulator(results){
 
 	//create Tabulator on DOM element with id "example-table"
 	$("#bcdata-table").tabulator({
-  		 movableColumns: true, //enable user movable rows
-  		 persistentLayout:true, //Enable column layout persistence
 	    height:"65%", // set height of table (optional)
+  		movableColumns:true, //enable user movable rows
 	    fitColumns:false, //fit columns to width of table (optional)
 			columns:[
 				{title:"WAM Inventory Number", field:"inv", variableHeight:true, sorter:"string", align:"left", sortable:true, formatter:function(cell, formatterParams){
