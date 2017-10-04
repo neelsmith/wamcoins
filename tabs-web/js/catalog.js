@@ -1,7 +1,7 @@
 
 var baseUrl = "http://shot.holycross.edu/wamcoins/catalog.html"
 //var remoteDataUrl = "http://shot.holycross.edu/wamcoins/wamcatinprog.tsv"
-var remoteDataUrl = "https://raw.githubusercontent.com/Eumaeus/wamcoins/master/tabs-web/wamcatinprog.tsv"
+var remoteDataUrl = "https://raw.githubusercontent.com/neelsmith/wamcoins/master/tabs-web/wamcatinprog.tsv"
 var idParam = "inv"
 
 
