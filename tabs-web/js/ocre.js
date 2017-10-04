@@ -1,7 +1,7 @@
 
 var baseUrl = "http://shot.holycross.edu/wamcoins/ocre.html"
 //var remoteDataUrl = "http://shot.holycross.edu/wamcoins/ocre.tsv"
-var remoteDataUrl = "https://raw.githubusercontent.com/Eumaeus/wamcoins/master/tabs-ocre/ocre-full.csv"
+var remoteDataUrl = "https://raw.githubusercontent.com/Eumaeus/wamcoins/master/tabs-web/ocre-full.tsv"
 var idParam = "OCRE"
 
 
